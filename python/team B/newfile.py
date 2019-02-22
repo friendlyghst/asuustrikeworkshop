@@ -1,6 +1,11 @@
 class Enoch:
-
-    def welcome(self): # 
+    """ Contains welcome() and goodbye()
+    welcome() is called at the beginning of the maiin function in iq.py and 
+    prompts the user to input in some details about them self
+    goodbye() is called at the end of the main function in iq.py
+    """
+    
+    def welcome(self): 
         self.name = input("Enter name: ") #asking for the user's name
         self.age = input("Enter age: ") #asking for the user's age
         self.sex = input("Enter your sex; enter (M) for Male and (F) for Female: ")
